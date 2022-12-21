@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB-Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+    
+</head>
+<body>
+    <div id="playGrid">
+        <h1>RGB Etch a Sketch</h1>
+        <div class="container" id="container">
+        </div>
+        <div id="hotbar">
+            <div class="buttons" id="rgbWheel">
+                <div id="rgbButton">
+                    <input type="button" id="colorDisplay" >
+                    <div id="currentRGB">Color</div>
+                </div> 
+            </div>
+            <div class="buttons" id="gridReset">
+                <div id="resetter">
+                    <button id="reset">Reset Grid</button>
+                </div>
+            </div>
+            <div class="buttons" id="setResolution">
+                <label for="size">Set Resolution</label>
+                <input type="number" step = "4" id="gridUnits" name="number" min="1" max="100">
+            </div>  
+        </div>
+    </div>
+</body>
+</html>
